@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.card-item {
+  list-style-type: none;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8ff;
+  border-radius: 14px;
+  padding: 12px;
+}
+@media screen and (min-width: 768px) {
+  .card-item {
+    margin-right: 20px;
+    min-width: 30%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card-item {
+    width: 100%;
+  }
+}
+.card-img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+}
+.item-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #e73959;
+  margin-bottom: 5px;
+}
+.details-cont {
+  display: flex;
+  margin-bottom: 8px;
+  align-items: center;
+}
+.icon-size {
+  height: 12px;
+  width: 12px;
+  margin-right: 5px;
+}
+.content {
+  color: #1e293b;
+  font-size: 12px;
+  font-weight: 300;
+}
